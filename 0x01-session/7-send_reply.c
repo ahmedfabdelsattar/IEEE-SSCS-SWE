@@ -2,7 +2,6 @@
 
 char *get_reply()
 {
-
     return "hello\n";
 }
 
