@@ -5,7 +5,6 @@ int sum_layers(int n)
     return 0;
 
   return n + sum_layers(n - 1);
-  n--;
 }
 int main()
 {

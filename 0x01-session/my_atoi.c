@@ -13,6 +13,7 @@ int result=0;
         }
         int asci = c[i];
         
+        
         if ((asci >= 48 && asci <= 57) )
         {
             
