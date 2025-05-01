@@ -11,7 +11,9 @@ int main()
     int x = my_atoi(string);
 
     FILE *file;
+
     file = fopen("converted_num.txt", "w");
+
     if (x < 0)
     {
         my_putfile(file, '-');
