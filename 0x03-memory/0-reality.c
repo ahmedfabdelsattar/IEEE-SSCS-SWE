@@ -14,9 +14,10 @@ void status(int n)
         printf("zero");
     }
 }
-int main(){
-    int n=0;
-    scanf("%d",&n);
-    void (*ptr) (int)=&status;
+int main()
+{
+    int n = 0;
+    scanf("%d", &n);
+    void (*ptr)(int) = &status;
     ptr(n);
 }
