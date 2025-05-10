@@ -9,6 +9,6 @@ int main()
     int *ptr2 = (int *)malloc(4);
     printf(" %p: data -> %d\n", &x, x);
     printf(" %p: stack -> %d\n", &y, y);
-    printf(" %p: heap -> %s\n", (void*)&ptr1, ptr1);
-    printf(" %p: data -> %p\n",  (void*)&ptr2,  (void*)ptr2);
+    printf(" %p: data -> %s\n", (void*)&ptr1, ptr1);
+    printf(" %p: heap -> %p\n",  (void*)&ptr2,  (void*)ptr2);
 }
